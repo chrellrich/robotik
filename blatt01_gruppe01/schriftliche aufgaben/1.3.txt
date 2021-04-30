@@ -1,0 +1,6 @@
+(a) Topics anzeigen:                rostopic -b [/path/to/bag]
+    Messages eines Topics:          rostopic echo [topic]
+    Publizierungsrate eines Topics: rostopic hz [topic]
+    Message-Typ eines Topics:       rostopic type [topic]
+
+(b) 

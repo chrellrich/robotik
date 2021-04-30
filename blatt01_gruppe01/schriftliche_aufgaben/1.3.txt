@@ -1,0 +1,4 @@
+(c)Dadurch dass der Fixed Frame sich verändert hat, drehen und verschieben sich
+   die Datenpunkte nicht mehr. Stattdessen bleiben die Messpunkte mehr oder
+   weniger am gleichen Ort. Durch die Erhöhung der Delay Time bilden die Punkte
+   durchgängigere Linien und es wird eine Karte der gescannten Umgebung erkennbar.

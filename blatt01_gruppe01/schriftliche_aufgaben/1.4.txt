@@ -1,0 +1,11 @@
+(a) Topics anzeigen:                rostopic list
+    Topics aus bagfile anzeigen:    rostopic list -b [/path/to/bag]
+    Messages eines Topics:          rostopic echo [topic]
+    Publizierungsrate eines Topics: rostopic hz [topic]
+    Message-Typ eines Topics:       rostopic type [topic]
+
+(c) Warum sich der Algorithmus für die vorliegende Fragestellung eher eignet als die klassische Berechnung des Mittelwerts und der Varianz?
+    So müssen nicht alle vorherigen Daten gespeichert werden. Zudem ist die Berechnung in jedem Schritt in O(1) statt in O(n) möglich.
+
+    Warum in dieser rekursiven Formel  ̄X1 und V1 berechnet werden kann, ohne dass Sie  ̄X0 und V0 kennen?
+    Der Vorfaktor ((n-1)/n) vor X_n-1 und V_n-1 in beiden Formeln ist im ersten Schritt gleich 0.

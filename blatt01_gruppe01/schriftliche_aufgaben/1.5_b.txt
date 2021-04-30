@@ -1,0 +1,16 @@
+$ rosmsg show geometry_msgs/PointStamped
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+geometry_msgs/Point point
+  float64 x
+  float64 y
+  float64 z
+
+$ rosmsg show geometry_msgs/Point
+float64 x
+float64 y
+float64 z
+
+Der PointStamped enthält zusätzlich zum Point weitere Metadaten. Im Header des PointStamped kann ein timestamp sowie eine frame_id angegeben werden. Die frame_id ist der Referenzframe zu dem der Point angegeben ist. Dadurch können die im TF-System angegebenen Frames genutzt werden.

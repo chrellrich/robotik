@@ -1,0 +1,6 @@
+Aufgabe 1.2:
+(c)
+Dadurch dass der Fixed Frame sich verändert hat, bewegen sich die Datenpunkte
+nicht mehr um einen Punkt herum. Stattdessen bleiben die Messpunkte mehr oder
+weniger am gleichen Ort. Durch die Erhöhung der Delay Time bilden die Punkte
+durchgängigere Linien.
